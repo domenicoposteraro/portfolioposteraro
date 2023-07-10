@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Benvenuto nella Cybersecurity</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      color: cyan;
+    }
+    
+    h2 {
+      color: magenta;
+    }
+    
+    p {
+      color: yellow;
+    }
+    
+    .comment {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>Benvenuto</h1>
+  
+  <form>
+    <label for="name">Inserisci il tuo nome:</label>
+    <input type="text" id="name" name="name">
+    <button type="submit">Invia</button>
+  </form>
+  
+  <h2>Cos'è la Cybersecurity?</h2>
+  
+  <p>La cybersecurity è una disciplina che si occupa della protezione delle risorse digitali da attacchi e minacce provenienti dal mondo online. Include misure di sicurezza, politiche, procedure e tecnologie progettate per proteggere dati, reti e sistemi informatici da danni, accessi non autorizzati e altre minacce.</p>
+  
+  <h2>Kali Linux nella Cybersecurity</h2>
+  
+  <p>Kali Linux è una distribuzione Linux specializzata nella sicurezza informatica. Fornisce un vasto insieme di strumenti e software preinstallati per test di penetrazione, analisi forense, reverse engineering e altro ancora. È ampiamente utilizzato dagli esperti di sicurezza informatica per valutare la sicurezza dei sistemi e identificare vulnerabilità potenziali.</p>
+  
+  <h2>Esempi di Software in Kali Linux</h2>
+  
+  <ul>
+    <li>Nmap - Uno scanner di rete che aiuta a scoprire dispositivi, porte aperte e servizi in esecuzione su una rete.</li>
+    <li>Metasploit Framework - Una piattaforma di test di penetrazione che offre una vasta gamma di strumenti e moduli per sfruttare vulnerabilità e testare la sicurezza dei sistemi.</li>
+    <li>Wireshark - Un analizzatore di pacchetti di rete che consente di catturare e analizzare il traffico di rete per identificare potenziali minacce o problemi di sicurezza.</li>
+    <li>John the Ripper - Un potente cracker di password che può essere utilizzato per testare la forza delle password e recuperare password dimenticate.</li>
+  </ul>
+  
+  <p class="comment">Inserisci qui il tuo commento sulla cybersecurity e Kali Linux:</p>
+  
+</body>
+</html>
