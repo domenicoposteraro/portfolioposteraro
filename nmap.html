@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spiegazione di Nmap</title>
+</head>
+<body>
+  <h1>Nmap</h1>
+  
+  <h2>Cos'è Nmap?</h2>
+  <p>Nmap (Network Mapper) è uno strumento di scansione di rete ampiamente utilizzato che consente di rilevare host e servizi all'interno di una rete. È in grado di determinare quali porte sono aperte, quale software e versione è in esecuzione su un sistema, e può anche fornire informazioni sulla topologia di rete.</p>
+
+  <h2>Funzioni principali di Nmap</h2>
+  <ul>
+    <li>Scansione delle porte di un host o di un'intera rete</li>
+    <li>Rilevamento degli host attivi nella rete</li>
+    <li>Rilevamento dei servizi e delle versioni in esecuzione su un host</li>
+    <li>Rilevamento delle vulnerabilità e delle configurazioni di sicurezza</li>
+    <li>Mapping della topologia di rete</li>
+    <li>Generazione di report dettagliati delle scansioni</li>
+  </ul>
+
+  <h2>Comandi principali di Nmap</h2>
+  <h3>Scansione delle porte di un host:</h3>
+  <pre><code>nmap <indirizzo_IP></code></pre>
+
+  <h3>Scansione delle porte di una rete:</h3>
+  <pre><code>nmap <indirizzo_rete/maschera_subnet></code></pre>
+
+  <h3>Scansione delle porte specifiche:</h3>
+  <pre><code>nmap -p <porta/porta-porta> <indirizzo_IP></code></pre>
+
+  <h3>Scansione in modalità silenziosa:</h3>
+  <pre><code>nmap -sS <indirizzo_IP></code></pre>
+
+  <h3>Rilevamento dei sistemi operativi:</h3>
+  <pre><code>nmap -O <indirizzo_IP></code></pre>
+
+  <h3>Scansione usando uno script NSE:</h3>
+  <pre><code>nmap --script=<nome_script> <indirizzo_IP></code></pre>
+  
+</body>
+</html>
