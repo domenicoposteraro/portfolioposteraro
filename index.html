@@ -23,3 +23,44 @@
   <p>Questi principi forniscono una base solida per la progettazione e l'implementazione di soluzioni di sicurezza informatica efficaci.</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sicurezza informatica - Posteraro Domenico</title>
+</head>
+<body>
+  <h1>Posteraro Domenico</h1>
+  
+  <h2>Programma per la sicurezza informatica</h2>
+  
+  <p>Il seguente programma in Python calcola l'hash di una password utilizzando l'algoritmo SHA-256 e verifica se corrisponde a un hash salvato. Questo processo è comune nel campo della sicurezza informatica per garantire che le password siano conservate in modo sicuro.</p>
+  
+  <pre><code>
+import hashlib
+
+def calcola_hash(password):
+    # Calcola l'hash della password utilizzando l'algoritmo SHA-256
+    hash_object = hashlib.sha256(password.encode())
+    return hash_object.hexdigest()
+
+def verifica_password(password, hash_salvato):
+    # Verifica se la password inserita corrisponde all'hash salvato
+    hash_password = calcola_hash(password)
+    return hash_password == hash_salvato
+
+def main():
+    hash_salvato = "4f78b1e3f63d4a65f00347e32d16e7c7be2706f1a9fcb49286d4f9f2f2a6ad87"  # Esempio di hash salvato
+    
+    password = input("Inserisci la password da verificare: ")
+    if verifica_password(password, hash_salvato):
+        print("La password è corretta.")
+    else:
+        print("La password è errata.")
+
+if __name__ == "__main__":
+    main()
+  </code></pre>
+  
+  <p>Questo programma dimostra l'utilizzo di un algoritmo di hash per crittografare le password e verificare la corrispondenza tra la password inserita e l'hash salvato. È un concetto fondamentale nella sicurezza informatica per proteggere le credenziali degli utenti e garantire l'integrità dei dati sensibili.</p>
+</body>
+</html>
