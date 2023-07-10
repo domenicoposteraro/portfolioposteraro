@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spiegazione di Wireshark</title>
+</head>
+<body>
+  <h1>Wireshark</h1>
+  
+  <h2>Cos'è Wireshark?</h2>
+  <p>Wireshark è un software di analisi del traffico di rete che consente di catturare e analizzare i pacchetti di dati in una rete. È uno strumento potente per il monitoraggio e l'analisi del traffico di rete, consentendo di identificare problemi, diagnosticare le performance e individuare possibili vulnerabilità.</p>
+
+  <h2>Funzioni principali di Wireshark</h2>
+  <ul>
+    <li>Cattura dei pacchetti di rete in tempo reale</li>
+    <li>Analisi approfondita del traffico di rete</li>
+    <li>Decodifica dei protocolli di rete</li>
+    <li>Filtraggio dei pacchetti per visualizzare solo quelli rilevanti</li>
+    <li>Statistica del traffico di rete</li>
+    <li>Generazione di report e esportazione dei risultati</li>
+  </ul>
+
+  <h2>Comandi principali di Wireshark</h2>
+  <h3>Cattura dei pacchetti:</h3>
+  <pre><code>sudo wireshark</code></pre>
+
+  <h3>Applicazione di un filtro:</h3>
+  <pre><code>ip.src == 192.168.0.1</code></pre>
+
+  <h3>Visualizzazione dei dettagli di un pacchetto:</h3>
+  <pre><code>clicca con il pulsante destro del mouse su un pacchetto → Analisi di pacchetto</code></pre>
+
+  <h3>Statistiche sul traffico:</h3>
+  <pre><code>Statistche → Conversazioni</code></pre>
+
+  <h3>Esportazione dei risultati:</h3>
+  <pre><code>File → Esporta specifica pacchetti → in formato CSV</code></pre>
+  
+</body>
+</html>
